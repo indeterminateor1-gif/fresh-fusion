@@ -1454,14 +1454,10 @@ footer {
   background-size: contain;
 }
 .poster.slideshow {
-  animation: twoSlide 5s infinite alternate ease-in-out;
-}
-/* Define two-image background transition */
-@keyframes twoSlide {
-  0%,
-  100% {
-    background-image: url("./assets/IMG_0418.png");
-  }
+  background-image: url("./assets/IMG_0418.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #upcoming-events.events-vertical.two-col .poster img {
